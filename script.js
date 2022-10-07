@@ -45,13 +45,17 @@ function resolveOperation() {
 
 function numberClickEvent(number) {
     if(writingFirstValue) {
+        if(a == "" && number == 0) return;
+
         if(afterEqualState) {
+            if(number == 0) return;
             afterEqualState = false;
             a = number;
         } else {
             a += number;
         }
     } else {
+        if(b == "" && number == 0) return;
         b += number;
     }
 }
