@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  <title>Calculator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="thematic theme1">
+  <main>
+    <div class="calculator-container thematic theme1">
+      <div class="header-container thematic theme1">
+        <p>calc</p>
+        <div class="slider-container">
+          <p class="slider-label">THEME</p>
+          <div class="slider thematic theme1">
+            <div class="slider-dot active thematic theme1" id="dot1"><span class="dot-label">1</span></div>
+            <div class="slider-dot thematic theme1" id="dot2"><span class="dot-label">2</span></div>
+            <div class="slider-dot thematic theme1" id="dot3"><span class="dot-label">3</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="result-container thematic theme1">
+        <span id="previous-op" class="previous-op">&nbsp</span>
+        <span id="result" class="result">0</span>
+      </div>
+      <div class="keyboard-container thematic theme1">
+        <button class="calculator-key calculator-number-key thematic theme1">7</button>
+        <button class="calculator-key calculator-number-key thematic theme1">8</button>
+        <button class="calculator-key calculator-number-key thematic theme1">9</button>
+        <button class="calculator-key calculator-key-del-res thematic theme1">DEL</button>
+        <button class="calculator-key calculator-number-key thematic theme1">4</button>
+        <button class="calculator-key calculator-number-key thematic theme1">5</button>
+        <button class="calculator-key calculator-number-key thematic theme1">6</button>
+        <button class="calculator-key calculator-operation-key thematic theme1">+</button>
+        <button class="calculator-key calculator-number-key thematic theme1">1</button>
+        <button class="calculator-key calculator-number-key thematic theme1">2</button>
+        <button class="calculator-key calculator-number-key thematic theme1">3</button>
+        <button class="calculator-key calculator-operation-key thematic theme1">-</button>
+        <button class="calculator-key calculator-number-key thematic theme1">.</button>
+        <button class="calculator-key calculator-number-key thematic theme1">0</button>
+        <button class="calculator-key calculator-operation-key thematic theme1">/</button>
+        <button class="calculator-key calculator-operation-key thematic theme1">x</button>
+        <button class="big-key calculator-key calculator-key-del-res thematic theme1">RESET</button>
+        <button class="big-key calculator-key calculator-key-eq thematic theme1">=</button>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
